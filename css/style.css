@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.label-text {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+
+body {
+  background-color: #cff1ff;
+}
+
+.create-account {
+  background-color: #ecfaff;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin: 60px;
+}
+
+.container {
+  width: 600px;
+  height: 1510px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-bottom: 110px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+span {
+  color: #e40000;
+}
+
+.box {
+  width: 100%;
+  height: 35px;
+  padding: 5px;
+  margin-top: 6px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  color: #545658;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+}
+
+.date-of-birth {
+  display: flex;
+}
+
+.gender-area {
+  margin-top: 6px;
+}
+
+input.radio{
+  width: 16px;
+  height: 16px;
+  margin-bottom: 25px;
+}
+
+
+#year, #month, #day, #job {
+width: 100%;
+height: 35px;
+margin-top: 6px;
+margin-bottom: 25px;
+color: #545658;
+border: 1px solid #d9d9d9;
+background: #fbfbfb;
+box-sizing: border-box;
+}
+
+.checkbox2 {
+  margin-top: 25px;
+}
+
+button {
+  width: 100%;
+  color: #ffffff;
+  font-size: 13px;
+  background-color: #0170BF;
+  padding: 13px;
+  margin-top: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.submit-sentence {
+  font-size: 10px;
+  margin-top: 25px;
+}

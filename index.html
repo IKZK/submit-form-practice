@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>form-practice</title>
+  </head>
+  <body>
+    <h1>登録用フォーム</h1>
+    <div class="container">
+      <form class="create-account">
+        <h2>アカウント作成</h2>
+        <h3>個人情報</h3>
+        <label class="label-text" for="family-name">名字 <span>※</span>
+          <input class="box" id="family-name" type="text">
+        </label>
+        <label class="label-text" for="last-name">名前 <span>※</span>
+          <input class="box" id="last-name" type="text">
+        </label>
+        <p>生年月日 <span>※</span></p>
+        <div class="date-of-birth">
+          <select id="year" name="year">
+            <option value="disabled selected">年</option>
+            <option value="1900">2000</option>
+            <option value="1901">2001</option>
+            <option value="1902">2002</option>
+            <option value="1903">2003</option>
+            <option value="1904">2004</option>
+            <option value="1905">2005</option>
+            <option value="1906">2006</option>
+            <option value="1907">2007</option>
+            <option value="1908">2008</option>
+            <option value="1909">2009</option>
+            <option value="1910">2010</option>
+          </select>
+          <select id="month" name="month">
+            <option value="disabled selected">月</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select id="day" name="day">
+            <option value="disabled selected">日</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+        </div>
+        <p>性別 <span>※</span></p>
+        <div class="gender-area">
+          <input class="radio" type="radio" name="gender" value="male">
+          <label for = "male">男性</label>
+          <input class="radio" type="radio" name="gender" value="female">
+          <label for = "female">女性</label>
+          <input class="radio" type="radio" name="gender" value="other">
+          <label for ="other">その他</label>
+        </div>
+        <p>職業</p>
+        <select id="job" name="job">
+          <option value="disabled selected">選択してください</option>
+          <option value="student">学生</option>
+          <option value="office-worker">会社員</option>
+          <option value="housewife">主婦</option>
+          <option value="other">その他</option>
+        </select>
+        <h3>アカウント情報</h3>
+        <label class="label-text" for="account-name">アカウント名 <span>※</span>
+          <input class="box" id="account-name" type="text">
+        </label>
+        <label class="label-text" for="mail-address">メールアドレス <span>※</span>
+          <input class="box"id="mail-address" type="text">
+        </label>
+        <label class="label-text" for="password">パスワード <span>※</span>
+          <input class="box" id="password" type="text">
+        </label>
+        <label class="label-text" for="confirm-password">確認用パスワード <span>※</span>
+          <input class="box" id="confirm-password" type="text">
+        </label>
+        <h3>連絡先</h3>
+        <label class="label-text" for="address">住所 <span>※</span>
+          <input class="box" id="address" type="text">
+        </label>
+        <label class="label-text" for="phone-number">電話番号 <span>※</span>
+          <input class="box" id="phone-number" type="text">
+        </label>
+        <h3>購読情報</h3>
+        <div class="checkbox">
+          <input class="checkbox" type="checkbox" name="subscription" value="mail-magazine">
+          <label class="check" for = "mail-magazine">メールマガジン</label><br>
+        </div>
+        <div class="checkbox2">
+          <input class="checkbox" type="checkbox" name="subscription" value="coupon">
+          <label class="check" for = "coupon">クーポン</label>
+        </div>
+        <button type="submit">アカウント作成</button>
+        <p class="submit-sentence">アカウントを作成することにより、
+        <a href="#">利用規約</a>と
+        <a href="#">プライバシーポリシー</a>
+        に同意するものとします。</p>
+      </form>
+    </div>
+  </body>
