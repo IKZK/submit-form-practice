@@ -86,15 +86,16 @@
             <option value="31">31</option>
           </select>
         </div>
-        <p>性別 <span>※</span></p>
+        <label class="label-text" for="gender">性別 <span>※</span>
         <div class="gender-area">
-          <input class="radio" type="radio" name="gender" value="male">
+          <input class="radio" id="gender" type="radio" name="gender" value="male">
           <label for = "male">男性</label>
           <input class="radio" type="radio" name="gender" value="female">
           <label for = "female">女性</label>
           <input class="radio" type="radio" name="gender" value="other">
           <label for ="other">その他</label>
         </div>
+        </label>
         <p>職業</p>
         <select id="job" name="job">
           <option value="disabled selected">選択してください</option>
